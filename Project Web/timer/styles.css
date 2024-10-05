@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #f0f0f0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+#timer {
+    font-size: 48px;
+}
+
+#startBtn {
+    position: relative;
+    z-index: 1001;
+}
+
+#tasks {
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 120px; /* Adjusted to avoid overlap with the header */
+}
+
+.task {
+    margin: 20px 0;
+}
+
+.sub-activity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.checkmark {
+    display: none; /* Hidden until checkbox is checked */
+    font-size: 24px;
+    color: green; /* Green color for the checkmark */
+    margin-left: 10px;
+}
+
+.completed .checkmark {
+    display: inline; /* Show checkmark when the activity is completed */
+}

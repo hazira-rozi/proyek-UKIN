@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Javascript</title>
+</head>
+<body>
+
+    <h2>Nama</h2>
+
+    <form id="myForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        
+
+        <input type="button" value="Submit" onclick="showAlert()">
+    </form>
+
+    <script>
+        function showAlert() {
+            // Mendapatkan data nama dari form
+            var name = document.getElementById("name").value;
+
+            // Menampilkan nama dari alert
+            alert("Selamat datang " + name );
+        }
+    </script>
+
+</body>
+</html>

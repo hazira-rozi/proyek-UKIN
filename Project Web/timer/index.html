@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Task Timer</h1>
+        <div id="timer">00:00</div>
+        <button id="startBtn">Start</button>
+    </div>
+    
+
+    <div id="tasks">
+        <!-- Task 1 with 4 activities -->
+        <div id="task1" class="task">
+            <h2>Pembukaan(0 - 20 minutes)</h2>
+            <div class="sub-activity">
+                <input type="checkbox" id="task1Activity1">
+                <label for="task1Activity1">Salam, mempersiakan siswa dan kelas, doa, dan presensi</label>
+                <span id="task1Activity1Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task1Activity2">
+                <label for="task1Activity2">Apersepsi</label>
+                <span id="task1Activity2Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task1Activity3">
+                <label for="task1Activity3">Pertanyaan Pemantik // Saya pasti bisa</label>
+                <span id="task1Activity3Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task1Activity4">
+                <label for="task1Activity4">Tujuan dan Manfaat pembelajaran</label>
+                <span id="task1Activity4Checkmark" class="checkmark">✔</span>
+            </div>
+        </div>
+
+        <!-- Task 2 with 8 activities -->
+        <div id="task2" class="task">
+            <h2>Kegiatan Inti(20 - 80 minutes)</h2>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity1">
+                <label for="task2Activity1">Siswa disuruh duduk berkelompok</label>
+                <span id="task2Activity1Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity2">
+                <label for="task2Activity2">Pemaparan materi</label>
+                <span id="task2Activity2Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity3">
+                <label for="task2Activity3">Siswa diberi kesempatan mencari materi</label>
+                <span id="task2Activity3Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity4">
+                <label for="task2Activity4">Diskusi mengenai materi yang didapat</label>
+                <span id="task2Activity4Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity5">
+                <label for="task2Activity5">Ice Breaking</label>
+                <span id="task2Activity5Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity6">
+                <label for="task2Activity6">Siswa mebuat prject</label>
+                <span id="task2Activity6Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity7">
+                <label for="task2Activity7">Mendokumentasikan proyek</label>
+                <span id="task2Activity7Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task2Activity8">
+                <label for="task2Activity8">Menampilkan hasil diskusi presentasi (rafli dan cindy) ditanggapi ridho dan kesha</label>
+                <span id="task2Activity8Checkmark" class="checkmark">✔</span>
+            </div>
+        </div>
+
+        <!-- Task 3 with 5 activities -->
+        <div id="task3" class="task">
+            <h2>Penutup (80 - 90 minutes)</h2>
+            <div class="sub-activity">
+                <input type="checkbox" id="task3Activity1">
+                <label for="task3Activity1">Meluruskan miskonsepsi</label>
+                <span id="task3Activity1Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task3Activity2">
+                <label for="task3Activity2">Mengkomunikasi kendala dan keuntungan js</label>
+                <span id="task3Activity2Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task3Activity3">
+                <label for="task3Activity3">Apresiasi dan motivasi</label>
+                <span id="task3Activity3Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task3Activity4">
+                <label for="task3Activity4">Gambaran selanjutnya</label>
+                <span id="task3Activity4Checkmark" class="checkmark">✔</span>
+            </div>
+            <div class="sub-activity">
+                <input type="checkbox" id="task3Activity5">
+                <label for="task3Activity5">Menutup dengan doa.</label>
+                <span id="task3Activity5Checkmark" class="checkmark">✔</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
